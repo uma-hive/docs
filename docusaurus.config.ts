@@ -57,13 +57,28 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'search',
+          position: 'left',
+        }
       ],
+
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  themes: [
+    [require.resolve('@easyops-cn/docusaurus-search-local'), (
+      {
+        docsRouteBasePath: '/',
+        indexBlog: false,
+        hashed: true,
+        highlightSearchTermsOnTargetPage: true,
+      }
+    )]
+  ]
 };
 
 export default config;

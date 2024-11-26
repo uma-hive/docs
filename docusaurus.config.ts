@@ -33,7 +33,7 @@ const config: Config = {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/uma-hive/docs/',
+            'https://github.com/uma-hive/docs/tree/main',
         },
         blog: false,
         theme: {

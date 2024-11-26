@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://uma-hive.github.io/',
-  baseUrl: '/',
+  baseUrl: '/docs/',
 
   organizationName: 'uma-hive',
   projectName: 'docs',

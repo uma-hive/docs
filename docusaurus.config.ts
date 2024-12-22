@@ -4,7 +4,6 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Technical Documentation',
-  // TODO: change to company favicon
   favicon: 'img/favicon.ico',
 
   url: 'https://uma-hive.github.io/',
@@ -46,11 +45,11 @@ const config: Config = {
   themeConfig: {
     navbar: {
       title: 'Technical Documentation',
-      // TODO: add company logo
-      // logo: {
-      //   alt: 'My Site Logo',
-      //   src: 'img/logo.svg',
-      // },
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/logo-light.svg',
+        srcDark: 'img/logo-dark.svg'
+      },
       items: [
         {
           href: 'https://github.com/uma-hive/docs',

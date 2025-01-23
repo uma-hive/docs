@@ -20,7 +20,7 @@ accounts, refer to the [Accounts documentation](./organization#accounts).
 
 ### Step 1: Modify AWS config
 
-Open the AWS CLI configuration file located at `~/.aws/config` and append the following lines at the end of the file:
+Open the AWS CLI configuration file `nano ~/.aws/config` and append the following lines at the end of the file:
 
 ```mdx title="~/.aws/config"
 [sso-session umahive-sso]
